@@ -1,0 +1,33 @@
+// Kindly press Ctrl+A and then press Ctrl+/ to use the code
+
+
+// Primary Secondary and other colors
+
+$primaryColor   : #63b88c;
+$secondaryColor : #49aadd;
+
+$primaryColor1   : #36383e;
+$secondaryColor1 : #000000;
+
+$textColor      : #3d3d3d;
+$LightColor     : #ededed;
+$mediumDarkColor: #555555;
+$whiteColor     : #ffffff;
+
+// Gradiant color
+
+$gradiant: linear-gradient(158.81deg, #009ffd 0%, #2a2a72 100%);
+
+.buttonGradiant {
+    background: rgb(99, 184, 140);
+    background: linear-gradient(121deg, rgba(99, 184, 140, 1) 0%, rgba(73, 170, 221, 1) 90%);
+}
+
+.buttonGradiantTwo {
+    background: rgb(54, 56, 62);
+    background: linear-gradient(121deg, rgba(54, 56, 62, 1) 48%, rgba(0, 0, 0, 1) 100%);
+}
+
+// web background color
+
+$backgroundColor: #f7f7f7;
