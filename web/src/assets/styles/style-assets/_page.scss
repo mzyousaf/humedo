@@ -1,0 +1,8 @@
+// herewe can define genaric paddings and margins
+
+.page {
+    width     : 100vw;
+    height    : 100vh;
+    background: rgb(70, 89, 107);
+    background: linear-gradient(0deg, rgba(70, 89, 107, 1) 0%, rgba(26, 26, 26, 1) 35%, rgba(26, 26, 26, 1) 70%, rgba(72, 91, 110, 1) 100%);
+}

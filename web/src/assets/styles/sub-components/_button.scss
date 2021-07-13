@@ -1,0 +1,36 @@
+@import '../style-assets/colors';
+
+
+.primary-plain-btn {
+    background        : rgb(99, 184, 140);
+    background        : linear-gradient(121deg, rgba(99, 184, 140, 1) 0%, rgba(73, 170, 221, 1) 90%);
+    // max-width      : 300px;
+    display           : flex;
+    justify-content   : center;
+    align-items       : center;
+    padding           : 10px;
+    border-radius     : 10px;
+
+    span {
+        color: white;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.secondary-plain-btn {
+    background     : rgb(54, 56, 62);
+    background     : linear-gradient(121deg, rgba(54, 56, 62, 1) 48%, rgba(0, 0, 0, 1) 100%);
+    max-width      : max-content;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    padding        : 5px 10px;
+    border-radius  : 45px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
